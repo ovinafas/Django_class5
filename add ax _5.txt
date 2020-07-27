@@ -1,0 +1,1258 @@
+Microsoft Windows [Version 10.0.18362.900]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\Yakub>cd shopcenter
+
+C:\Users\Yakub\shopcenter>venv\Scripts\activate
+
+(venv) C:\Users\Yakub\shopcenter>cd shopping
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+-  Building for production...
+
+ WARNING  Compiled with 3 warnings                                                                              18:16:28
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:10  warning  Replace `·······` with `·>␍⏎········`                                                                                                                                                                                                                                                           prettier/prettier
+   9:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:5   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:1   warning  Replace `················<SingleProduct·` with `··········<SingleProduct`                                                                                                                                                                                                                       prettier/prettier
+  16:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:1   warning  Replace `················` with `············`                                                                                                                                                                                                                                                  prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Replace `················` with `··········`                                                                                                                                                                                                                                                    prettier/prettier
+  20:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:1   warning  Replace `··············` with `········`                                                                                                                                                                                                                                                        prettier/prettier
+  22:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                        prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                              prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  47:23  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`␍⏎······)␍⏎········` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                      prettier/prettier
+  51:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  52:1   warning  Replace `············` with `········`                                                                                                                                                                                                                                                          prettier/prettier
+  53:7   warning  Replace `····})` with `});`                                                                                                                                                                                                                                                                     prettier/prettier
+
+✖ 30 problems (0 errors, 30 warnings)
+  0 errors and 30 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.ca8dc400.js (320 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (504 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.ca8dc400.js
+      static/css/app.e51ee219.css
+      static/js/app.14ee75d3.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.ca8dc400.    319.51 KiB       104.93 KiB
+  js
+  dist\static\js\app.14ee75d3.js            10.61 KiB        3.72 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py ruserver
+Unknown command: 'ruserver'. Did you mean runserver?
+Type 'manage.py help' for usage.
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\Yakub\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Yakub\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\utils\autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\management\base.py", line 441, in check
+    raise SystemCheckError(msg)
+django.core.management.base.SystemCheckError: SystemCheckError: System check identified some issues:
+
+ERRORS:
+shop.Product.cover: (fields.E210) Cannot use ImageField because Pillow is not installed.
+        HINT: Get Pillow at https://pypi.org/project/Pillow/ or run command "python -m pip install Pillow".
+
+System check identified 1 issue (0 silenced).
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python -m pip install Pillow
+Collecting Pillow
+  Downloading Pillow-7.1.2-cp38-cp38-win32.whl (1.8 MB)
+     |████████████████████████████████| 1.8 MB 344 kB/s
+Installing collected packages: Pillow
+Successfully installed Pillow-7.1.2
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:19:55
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:20:00] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:20:00] "GET /static/js/app.14ee75d3.js HTTP/1.1" 200 10861
+[25/Jun/2020 18:20:01] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 18:20:01] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 200 327181
+[25/Jun/2020 18:20:01] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 18:20:03] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: shop_product.cover
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: shop_product.cover
+[25/Jun/2020 18:20:03] "GET /api/products/ HTTP/1.1" 500 20775
+Not Found: /favicon.ico
+[25/Jun/2020 18:20:03] "GET /favicon.ico HTTP/1.1" 404 2347
+[25/Jun/2020 18:20:19] "GET /static/js/app.14ee75d3.js.map HTTP/1.1" 200 51258
+[25/Jun/2020 18:20:19] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 200 1573331
+[25/Jun/2020 18:20:25] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:20:25] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:20:25] "GET /static/js/app.14ee75d3.js HTTP/1.1" 304 0
+[25/Jun/2020 18:20:25] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 304 0
+[25/Jun/2020 18:20:25] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+sqlite3.OperationalError: no such column: shop_product.cover
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 276, in __iter__
+    self._fetch_all()
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 1261, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\query.py", line 57, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\models\sql\compiler.py", line 1152, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 100, in execute
+    return super().execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 68, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 77, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\utils.py", line 86, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\db\backends\sqlite3\base.py", line 396, in execute
+    return Database.Cursor.execute(self, query, params)
+django.db.utils.OperationalError: no such column: shop_product.cover
+[25/Jun/2020 18:20:27] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+[25/Jun/2020 18:20:27] "GET /api/products/ HTTP/1.1" 500 20684
+C:\Users\Yakub\shopcenter\shopping\shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:22:08
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:22:10] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:22:11] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:22:11] "GET /static/js/app.14ee75d3.js HTTP/1.1" 304 0
+[25/Jun/2020 18:22:11] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+[25/Jun/2020 18:22:11] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 304 0
+[25/Jun/2020 18:22:12] "GET /static/js/app.14ee75d3.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:22:12] "GET /api/products/ HTTP/1.1" 200 459
+[25/Jun/2020 18:22:12] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:22:13] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+[25/Jun/2020 18:22:32] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:22:33] "GET /api/products/ HTTP/1.1" 200 459
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+\  Building for production...
+
+ WARNING  Compiled with 3 warnings                                                                              18:34:55
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:10  warning  Replace `·······` with `·>␍⏎········`                                                                                                                                                                                                                                                           prettier/prettier
+   9:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:5   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:1   warning  Replace `················<SingleProduct·` with `··········<SingleProduct`                                                                                                                                                                                                                       prettier/prettier
+  16:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:1   warning  Replace `················` with `············`                                                                                                                                                                                                                                                  prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Replace `················` with `··········`                                                                                                                                                                                                                                                    prettier/prettier
+  20:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:1   warning  Replace `··············` with `········`                                                                                                                                                                                                                                                        prettier/prettier
+  22:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                        prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                              prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  44:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                    no-console
+  48:23  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`␍⏎······)␍⏎········` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                      prettier/prettier
+  52:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  53:1   warning  Replace `············` with `········`                                                                                                                                                                                                                                                          prettier/prettier
+  54:7   warning  Replace `····})` with `});`                                                                                                                                                                                                                                                                     prettier/prettier
+
+✖ 31 problems (0 errors, 31 warnings)
+  0 errors and 30 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.ca8dc400.js (320 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (504 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.ca8dc400.js
+      static/css/app.e51ee219.css
+      static/js/app.d6727c16.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.ca8dc400.    319.51 KiB       104.93 KiB
+  js
+  dist\static\js\app.d6727c16.js            10.63 KiB        3.73 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:36:27
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:36:39] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:36:47] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 18:36:47] "GET /static/js/app.d6727c16.js HTTP/1.1" 200 10888
+[25/Jun/2020 18:36:47] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 200 327181
+[25/Jun/2020 18:36:48] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 18:36:51] "GET /api/products/ HTTP/1.1" 200 459
+[25/Jun/2020 18:36:52] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+[25/Jun/2020 18:37:10] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:37:10] "GET /static/js/app.d6727c16.js.map HTTP/1.1" 200 51327
+[25/Jun/2020 18:37:10] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 200 1573331
+Not Found: /about
+[25/Jun/2020 18:38:20] "GET /about HTTP/1.1" 404 2329
+[25/Jun/2020 18:38:37] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:37] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jun/2020 18:38:38] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+C:\Users\Yakub\shopcenter\shopping\shop\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:40:08
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+Internal Server Error: /api/products/
+Traceback (most recent call last):
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\exception.py", line 34, in inner
+    response = get_response(request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 115, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\handlers\base.py", line 113, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\views\generic\base.py", line 71, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 505, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 465, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 476, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\views.py", line 502, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\generics.py", line 199, in get
+    return self.list(request, *args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\mixins.py", line 46, in list
+    return Response(serializer.data)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 760, in data
+    ret = super().data
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 260, in data
+    self._data = self.to_representation(self.instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 677, in to_representation
+    return [
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 678, in <listcomp>
+    self.child.to_representation(item) for item in iterable
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 514, in to_representation
+    for field in fields:
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 375, in _readable_fields
+    for field in self.fields.values():
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 363, in fields
+    for key, value in self.get_fields().items():
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 1062, in get_fields
+    field_class, field_kwargs = self.build_field(
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 1208, in build_field
+    return self.build_unknown_field(field_name, model_class)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\rest_framework\serializers.py", line 1323, in build_unknown_field
+    raise ImproperlyConfigured(
+django.core.exceptions.ImproperlyConfigured: Field name `cover` is not valid for model `Product`.
+[25/Jun/2020 18:40:09] "GET /api/products/ HTTP/1.1" 500 148365
+C:\Users\Yakub\shopcenter\shopping\shop\api\serializers.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:40:31
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:40:34] "GET /api/products/ HTTP/1.1" 200 6371
+C:\Users\Yakub\shopcenter\shopping\shop\api\views.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:42:05
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:42:05] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:42:14] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:42:19] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:42:35] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:42:39] "GET /api/products/ HTTP/1.1" 200 6371
+[25/Jun/2020 18:42:48] "GET /api/products/1 HTTP/1.1" 301 0
+[25/Jun/2020 18:42:48] "GET /api/products/1/ HTTP/1.1" 200 5659
+[25/Jun/2020 18:42:55] "GET /api/products/ HTTP/1.1" 200 6371
+C:\Users\Yakub\shopcenter\shopping\shop\api\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:44:12
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\Yakub\shopcenter\shopping\shop\models.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py makemigrations
+You are trying to add a non-nullable field 'cover' to product without a default; we can't do that (the database needs something to populate existing rows).
+Please select a fix:
+ 1) Provide a one-off default now (will be set on all existing rows with a null value for this column)
+ 2) Quit, and let me add a default in models.py
+Select an option: 1
+Please enter the default value now, as valid Python
+The datetime and django.utils.timezone modules are available, so you can do e.g. timezone.now
+Type 'exit' to exit this prompt
+>>> ''
+Migrations for 'shop':
+  shop\migrations\0002_auto_20200625_1845.py
+    - Change Meta options on category
+    - Add field cover to product
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py migrate
+Operations to perform:
+  Apply all migrations: admin, auth, contenttypes, sessions, shop
+Running migrations:
+  Applying shop.0002_auto_20200625_1845... OK
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:46:54
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:47:00] "GET /api/products/ HTTP/1.1" 200 6503
+[25/Jun/2020 18:47:56] "GET /api/products/?format=api HTTP/1.1" 200 6547
+[25/Jun/2020 18:48:02] "GET /api/products/?format=json HTTP/1.1" 200 511
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+|  Building for production...
+
+ WARNING  Compiled with 3 warnings                                                                              18:51:20
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:10  warning  Replace `·······` with `·>␍⏎········`                                                                                                                                                                                                                                                           prettier/prettier
+   9:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:5   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:1   warning  Replace `················<SingleProduct·` with `··········<SingleProduct`                                                                                                                                                                                                                       prettier/prettier
+  16:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:1   warning  Replace `················` with `············`                                                                                                                                                                                                                                                  prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Replace `················` with `··········`                                                                                                                                                                                                                                                    prettier/prettier
+  20:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:1   warning  Replace `··············` with `········`                                                                                                                                                                                                                                                        prettier/prettier
+  22:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                        prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                              prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  44:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                    no-console
+  48:23  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`␍⏎······)␍⏎········` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                      prettier/prettier
+  52:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  53:1   warning  Replace `············` with `········`                                                                                                                                                                                                                                                          prettier/prettier
+  54:7   warning  Replace `····})` with `});`                                                                                                                                                                                                                                                                     prettier/prettier
+
+✖ 31 problems (0 errors, 31 warnings)
+  0 errors and 30 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.ca8dc400.js (320 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (504 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.ca8dc400.js
+      static/css/app.e51ee219.css
+      static/js/app.86b4ee5a.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.ca8dc400.    319.51 KiB       104.93 KiB
+  js
+  dist\static\js\app.86b4ee5a.js            10.60 KiB        3.71 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 18:51:44
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 18:51:47] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:51:48] "GET /static/js/app.86b4ee5a.js HTTP/1.1" 200 10854
+[25/Jun/2020 18:51:49] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 18:52:21] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 18:52:21] "GET /static/js/app.86b4ee5a.js.map HTTP/1.1" 200 51311
+[25/Jun/2020 18:52:22] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 200 1573331
+[25/Jun/2020 18:53:25] "GET /api/products/ HTTP/1.1" 200 6503
+[25/Jun/2020 18:54:01] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:54:02] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:54:02] "GET /static/js/app.86b4ee5a.js HTTP/1.1" 304 0
+[25/Jun/2020 18:54:02] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 200 327181
+[25/Jun/2020 18:54:02] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 18:54:03] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:54:03] "GET /static/js/app.86b4ee5a.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:54:03] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 18:54:03] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+[25/Jun/2020 18:54:21] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:54:21] "GET /static/js/app.86b4ee5a.js HTTP/1.1" 304 0
+[25/Jun/2020 18:54:21] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:54:22] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 304 0
+[25/Jun/2020 18:54:22] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+[25/Jun/2020 18:54:23] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:54:23] "GET /static/js/app.86b4ee5a.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:54:23] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 18:54:23] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+Not Found: /products/
+[25/Jun/2020 18:55:39] "GET /products/ HTTP/1.1" 404 2341
+[25/Jun/2020 18:55:53] "GET /api/products/ HTTP/1.1" 200 6503
+[25/Jun/2020 18:56:07] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 18:56:07] "GET /static/js/app.86b4ee5a.js HTTP/1.1" 304 0
+[25/Jun/2020 18:56:07] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 18:56:07] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+[25/Jun/2020 18:56:07] "GET /static/js/chunk-vendors.ca8dc400.js HTTP/1.1" 304 0
+[25/Jun/2020 18:56:08] "GET /static/js/chunk-vendors.ca8dc400.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:56:08] "GET /static/js/app.86b4ee5a.js.map HTTP/1.1" 304 0
+[25/Jun/2020 18:56:08] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 18:56:08] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+/  Building for production...
+
+ WARNING  Compiled with 3 warnings                                                                              18:59:36
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:9   warning  Insert `··>␍⏎`                                                                                                                                                                                                                                                                                  prettier/prettier
+   9:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:11  warning  Replace `······<SingleProduct·` with `<SingleProduct`                                                                                                                                                                                                                                           prettier/prettier
+  16:13  warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  18:13  warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Replace `················` with `··········`                                                                                                                                                                                                                                                    prettier/prettier
+  20:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  22:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+  25:3   warning  Replace `··<!--/category-tab-->··` with `<!--/category-tab-->`                                                                                                                                                                                                                                  prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  44:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                    no-console
+  47:5   warning  Delete `·`                                                                                                                                                                                                                                                                                      prettier/prettier
+  48:17  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`␍⏎······)␍⏎········` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                      prettier/prettier
+  52:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  53:1   warning  Replace `············` with `········`                                                                                                                                                                                                                                                          prettier/prettier
+  54:7   warning  Replace `····})` with `});`                                                                                                                                                                                                                                                                     prettier/prettier
+
+✖ 32 problems (0 errors, 32 warnings)
+  0 errors and 31 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.9ff5a367.js (313 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (497 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.9ff5a367.js
+      static/css/app.e51ee219.css
+      static/js/app.61a567e7.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.9ff5a367.    312.99 KiB       102.81 KiB
+  js
+  dist\static\js\app.61a567e7.js            10.38 KiB        3.61 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 19:01:32
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 19:01:34] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 19:01:35] "GET /static/js/app.61a567e7.js HTTP/1.1" 200 10628
+[25/Jun/2020 19:01:35] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 19:01:35] "GET /static/js/chunk-vendors.9ff5a367.js HTTP/1.1" 200 320502
+[25/Jun/2020 19:01:35] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 19:01:36] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 19:01:36] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+-  Building for production...
+
+ ERROR  Failed to compile with 1 errors                                                                         19:05:03
+ error  in ./src/components/catalog/CategoryTab.vue
+
+Module Error (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:11  warning  Insert `>␍⏎··`                                                                                                                                                                                                                                                                                  prettier/prettier
+   9:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:11  warning  Replace `······<SingleProduct·` with `<SingleProduct`                                                                                                                                                                                                                                           prettier/prettier
+  16:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:13  warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  20:11  warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:9   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  22:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                        prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                              prettier/prettier
+  29:8   error    'axios' is defined but never used                                                                                                                                                                                                                                                               no-unused-vars
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  44:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                    no-console
+  47:5   warning  Delete `·`                                                                                                                                                                                                                                                                                      prettier/prettier
+  48:13  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                                         prettier/prettier
+  50:7   warning  Delete `)␍⏎····`                                                                                                                                                                                                                                                                                prettier/prettier
+  53:11  warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+  54:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+  55:9   warning  Replace `··})` with `});`                                                                                                                                                                                                                                                                       prettier/prettier
+
+✖ 34 problems (1 error, 33 warnings)
+  0 errors and 32 warnings potentially fixable with the `--fix` option.
+
+
+ @ ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/catalog/Catalog.vue?vue&type=script&lang=js& 18:0-44 22:17-28
+ @ ./src/components/catalog/Catalog.vue?vue&type=script&lang=js&
+ @ ./src/components/catalog/Catalog.vue
+ @ ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/views/Home.vue?vue&type=script&lang=js&
+ @ ./src/views/Home.vue?vue&type=script&lang=js&
+ @ ./src/views/Home.vue
+ @ ./src/router/index.js
+ @ ./src/main.js
+ @ multi ./src/main.js
+
+ ERROR  Build failed with errors.
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! shopping@0.1.0 build: `vue-cli-service build`
+npm ERR! Exit status 1
+npm ERR!
+npm ERR! Failed at the shopping@0.1.0 build script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\Yakub\AppData\Roaming\npm-cache\_logs\2020-06-25T16_05_04_592Z-debug.log
+
+\  Building for production...
+
+ WARNING  Compiled with 3 warnings                                                                              19:07:18
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                      prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                            prettier/prettier
+   8:11  warning  Insert `>␍⏎··`                                                                                                                                                                                                                                                                                  prettier/prettier
+   9:7   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  10:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  12:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  13:7   warning  Replace `······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                    prettier/prettier
+  15:11  warning  Replace `······<SingleProduct·` with `<SingleProduct`                                                                                                                                                                                                                                           prettier/prettier
+  16:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  17:13  warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                   prettier/prettier
+  19:1   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  20:11  warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  21:9   warning  Delete `······`                                                                                                                                                                                                                                                                                 prettier/prettier
+  22:1   warning  Replace `············` with `······`                                                                                                                                                                                                                                                            prettier/prettier
+  23:1   warning  Replace `········` with `····`                                                                                                                                                                                                                                                                  prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                        prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                              prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                      prettier/prettier
+  44:5   warning  Unexpected console statement                                                                                                                                                                                                                                                                    no-console
+  47:5   warning  Delete `·`                                                                                                                                                                                                                                                                                      prettier/prettier
+  48:13  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                                         prettier/prettier
+  50:7   warning  Delete `)␍⏎····`                                                                                                                                                                                                                                                                                prettier/prettier
+  53:11  warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+  54:1   warning  Delete `··`                                                                                                                                                                                                                                                                                     prettier/prettier
+  55:9   warning  Replace `··})` with `});`                                                                                                                                                                                                                                                                       prettier/prettier
+
+✖ 33 problems (0 errors, 33 warnings)
+  0 errors and 32 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.0496cd4a.js (296 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (480 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.0496cd4a.js
+      static/css/app.e51ee219.css
+      static/js/app.2a1df368.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.0496cd4a.    296.39 KiB       97.05 KiB
+  js
+  dist\static\js\app.2a1df368.js            10.39 KiB        3.60 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 19:07:41
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 19:07:45] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 19:07:45] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 19:07:45] "GET /static/js/app.2a1df368.js HTTP/1.1" 200 10642
+[25/Jun/2020 19:07:45] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 19:07:46] "GET /static/images/home/map.png HTTP/1.1" 200 14823
+[25/Jun/2020 19:07:46] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+[25/Jun/2020 19:07:46] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 19:12:08] "GET /api/products/ HTTP/1.1" 200 6503
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/css/bootstrap.min.css HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/css/bootstrap-tweaks.css HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/csrf.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/default.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/css/default.css HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/ajax-form.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/css/prettify.css HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/jquery-3.4.1.min.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/prettify-min.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/js/bootstrap.min.js HTTP/1.1" 304 0
+[25/Jun/2020 19:12:08] "GET /static/rest_framework/img/grid.png HTTP/1.1" 304 0
+[25/Jun/2020 19:12:11] "GET /api/products/?format=json HTTP/1.1" 200 511
+[25/Jun/2020 19:13:39] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 19:13:40] "GET /static/js/app.2a1df368.js.map HTTP/1.1" 200 51358
+[25/Jun/2020 19:13:40] "GET /static/js/chunk-vendors.0496cd4a.js.map HTTP/1.1" 200 1459732
+[25/Jun/2020 19:13:48] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 19:13:48] "GET /static/js/app.2a1df368.js HTTP/1.1" 304 0
+[25/Jun/2020 19:13:49] "GET /api/products/ HTTP/1.1" 200 511
+[25/Jun/2020 19:13:51] "GET /static/images/home/map.png HTTP/1.1" 304 0
+[25/Jun/2020 19:13:51] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+[25/Jun/2020 19:13:51] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+[25/Jun/2020 19:15:59] "GET /admin/ HTTP/1.1" 302 0
+[25/Jun/2020 19:16:00] "GET /admin/ HTTP/1.1" 302 0
+[25/Jun/2020 19:16:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[25/Jun/2020 19:16:02] "GET /admin/login/?next=/admin/ HTTP/1.1" 200 1913
+[25/Jun/2020 19:16:08] "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+[25/Jun/2020 19:16:08] "GET /admin/ HTTP/1.1" 200 6522
+C:\Users\Yakub\shopcenter\shopping\shopping\settings.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 19:17:01
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+C:\Users\Yakub\shopcenter\shopping\shopping\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "C:\Users\Yakub\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "C:\Users\Yakub\AppData\Local\Programs\Python\Python38-32\lib\threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\utils\autoreload.py", line 53, in wrapper
+    fn(*args, **kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\management\commands\runserver.py", line 117, in inner_run
+    self.check(display_num_errors=True)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\management\base.py", line 392, in check
+    all_issues = self._run_checks(
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\management\base.py", line 382, in _run_checks
+    return checks.run_checks(**kwargs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\checks\registry.py", line 72, in run_checks
+    new_errors = check(app_configs=app_configs)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\checks\urls.py", line 13, in check_url_config
+    return check_resolver(resolver)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\core\checks\urls.py", line 23, in check_resolver
+    return check_method()
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\urls\resolvers.py", line 407, in check
+    for pattern in self.url_patterns:
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\urls\resolvers.py", line 588, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\utils\functional.py", line 48, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "C:\Users\Yakub\shopcenter\venv\lib\site-packages\django\urls\resolvers.py", line 581, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "C:\Users\Yakub\AppData\Local\Programs\Python\Python38-32\lib\importlib\__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 783, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "C:\Users\Yakub\shopcenter\shopping\shopping\urls.py", line 25, in <module>
+    if settings.DEBUG: # new
+NameError: name 'settings' is not defined
+C:\Users\Yakub\shopcenter\shopping\shopping\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 19:18:51
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 19:23:42] "GET /admin/shop/product/ HTTP/1.1" 200 5053
+[25/Jun/2020 19:23:43] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:23:46] "GET /admin/shop/product/4/change/ HTTP/1.1" 200 8153
+[25/Jun/2020 19:23:46] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:30:11] "POST /admin/shop/product/4/change/ HTTP/1.1" 302 0
+[25/Jun/2020 19:30:11] "GET /admin/shop/product/ HTTP/1.1" 200 5268
+[25/Jun/2020 19:30:11] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:30:14] "GET /admin/shop/product/3/change/ HTTP/1.1" 200 8161
+[25/Jun/2020 19:30:14] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:30:55] "POST /admin/shop/product/3/change/ HTTP/1.1" 302 0
+[25/Jun/2020 19:30:55] "GET /admin/shop/product/ HTTP/1.1" 200 5272
+[25/Jun/2020 19:30:55] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:30:58] "GET /admin/shop/product/2/change/ HTTP/1.1" 200 8112
+[25/Jun/2020 19:30:58] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:31:11] "POST /admin/shop/product/2/change/ HTTP/1.1" 302 0
+[25/Jun/2020 19:31:11] "GET /admin/shop/product/ HTTP/1.1" 200 5243
+[25/Jun/2020 19:31:12] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:31:17] "GET /admin/shop/product/1/change/ HTTP/1.1" 200 8108
+[25/Jun/2020 19:31:17] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:31:28] "POST /admin/shop/product/1/change/ HTTP/1.1" 302 0
+[25/Jun/2020 19:31:28] "GET /admin/shop/product/ HTTP/1.1" 200 5241
+[25/Jun/2020 19:31:28] "GET /admin/jsi18n/ HTTP/1.1" 200 3223
+[25/Jun/2020 19:31:47] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 19:31:48] "GET /static/js/app.2a1df368.js HTTP/1.1" 304 0
+[25/Jun/2020 19:31:48] "GET /static/css/app.e51ee219.css HTTP/1.1" 304 0
+[25/Jun/2020 19:31:49] "GET /static/js/about.c632d4a3.js HTTP/1.1" 304 0
+[25/Jun/2020 19:31:49] "GET /static/images/home/map.png HTTP/1.1" 304 0
+[25/Jun/2020 19:31:49] "GET /api/products/ HTTP/1.1" 200 687
+[25/Jun/2020 19:31:50] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 304 0
+[25/Jun/2020 19:31:55] "GET /api/products/ HTTP/1.1" 200 7251
+[25/Jun/2020 19:32:03] "GET /media/images/shipping.jpg HTTP/1.1" 200 57184
+
+(venv) C:\Users\Yakub\shopcenter\shopping>npm run build
+
+> shopping@0.1.0 build C:\Users\Yakub\shopcenter\shopping
+> vue-cli-service build
+
+
+|  Building for production...
+
+ WARNING  Compiled with 4 warnings                                                                              19:39:20
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\CategoryTab.vue
+   2:3   warning  Delete `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+   3:1   warning  Delete `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+   4:1   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+   5:7   warning  Delete `······`                                                                                                                                                                                                                                                                                   prettier/prettier
+   6:1   warning  Replace `················` with `········`                                                                                                                                                                                                                                                        prettier/prettier
+   7:11  warning  Replace `··········<a·:href="`#Tab_00${n}`"·data-toggle="tab"·:class="{·'active':·n·===·1·}">Group·{{·n·}}</a>` with `<a␍⏎············:href="`#Tab_00${n}`"␍⏎············data-toggle="tab"␍⏎············:class="{·active:·n·===·1·}"␍⏎············>Group·{{·n·}}</a`                              prettier/prettier
+   8:11  warning  Insert `>␍⏎··`                                                                                                                                                                                                                                                                                    prettier/prettier
+   9:7   warning  Delete `······`                                                                                                                                                                                                                                                                                   prettier/prettier
+  10:1   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  11:1   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  12:1   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  13:6   warning  Replace `·······<div·class="tab-pane·fade"·v-for="m·in·5"·:key="m"·:id="`Tab_00${m}`"·:class="{·'active·in·show':·m·===·1·}">` with `·<div␍⏎········class="tab-pane·fade"␍⏎········v-for="m·in·5"␍⏎········:key="m"␍⏎········:id="`Tab_00${m}`"␍⏎········:class="{·'active·in·show':·m·===·1·}"`  prettier/prettier
+  14:7   warning  Insert `>␍⏎`                                                                                                                                                                                                                                                                                      prettier/prettier
+  15:11  warning  Replace `······<SingleProduct·` with `<SingleProduct`                                                                                                                                                                                                                                             prettier/prettier
+  16:13  warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  17:1   warning  Replace `················` with `············`                                                                                                                                                                                                                                                    prettier/prettier
+  18:1   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  19:11  warning  Delete `······`                                                                                                                                                                                                                                                                                   prettier/prettier
+  20:1   warning  Replace `················` with `··········`                                                                                                                                                                                                                                                      prettier/prettier
+  21:9   warning  Delete `······`                                                                                                                                                                                                                                                                                   prettier/prettier
+  22:1   warning  Delete `······`                                                                                                                                                                                                                                                                                   prettier/prettier
+  23:5   warning  Delete `····`                                                                                                                                                                                                                                                                                     prettier/prettier
+  24:1   warning  Replace `····` with `··`                                                                                                                                                                                                                                                                          prettier/prettier
+  25:1   warning  Replace `····<!--/category-tab-->··` with `··<!--/category-tab-->`                                                                                                                                                                                                                                prettier/prettier
+  36:19  warning  Delete `,`                                                                                                                                                                                                                                                                                        prettier/prettier
+  40:18  warning  Delete `,`                                                                                                                                                                                                                                                                                        prettier/prettier
+  43:25  warning  Delete `·`                                                                                                                                                                                                                                                                                        prettier/prettier
+  46:1   warning  Delete `·`                                                                                                                                                                                                                                                                                        prettier/prettier
+  47:13  warning  Replace `␍⏎········`http://127.0.0.1:8000/api/products/`` with ``http://127.0.0.1:8000/api/products/`)`                                                                                                                                                                                           prettier/prettier
+  49:6   warning  Delete `·)␍⏎···`                                                                                                                                                                                                                                                                                  prettier/prettier
+  51:7   warning  Insert `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+  52:1   warning  Delete `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+  53:11  warning  Delete `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+  53:13  warning  Unexpected console statement                                                                                                                                                                                                                                                                      no-console
+  54:1   warning  Delete `··`                                                                                                                                                                                                                                                                                       prettier/prettier
+  55:9   warning  Replace `··})` with `});`                                                                                                                                                                                                                                                                         prettier/prettier
+
+✖ 36 problems (0 errors, 36 warnings)
+  0 errors and 35 warnings potentially fixable with the `--fix` option.
+
+
+Module Warning (from ./node_modules/eslint-loader/index.js):
+
+C:\Users\Yakub\shopcenter\shopping\src\components\catalog\SingleProduct.vue
+   2:3   warning  Delete `··`                                                                             prettier/prettier
+   3:1   warning  Delete `··`                                                                             prettier/prettier
+   4:7   warning  Delete `··`                                                                             prettier/prettier
+   5:1   warning  Replace `··········` with `········`                                                    prettier/prettier
+   6:1   warning  Delete `··`                                                                             prettier/prettier
+   7:11  warning  Replace `··<h2>Price:·${{product_data.price` with `<h2>Price:·${{·product_data.price·`  prettier/prettier
+   8:11  warning  Replace `··<p>{{product_data.title` with `<p>{{·product_data.title·`                    prettier/prettier
+   9:1   warning  Delete `··`                                                                             prettier/prettier
+  10:1   warning  Replace `··············` with `············`                                            prettier/prettier
+  11:11  warning  Delete `··`                                                                             prettier/prettier
+  12:1   warning  Delete `··`                                                                             prettier/prettier
+  13:1   warning  Replace `········` with `······`                                                        prettier/prettier
+  14:1   warning  Delete `··`                                                                             prettier/prettier
+  15:1   warning  Delete `··`                                                                             prettier/prettier
+  23:30  warning  Delete `,`                                                                              prettier/prettier
+  27:5   warning  Delete `··`                                                                             prettier/prettier
+  28:1   warning  Replace `········` with `······`                                                        prettier/prettier
+  29:7   warning  Delete `··`                                                                             prettier/prettier
+  30:1   warning  Replace `··········return·{}` with `········return·{};`                                 prettier/prettier
+  31:1   warning  Delete `··`                                                                             prettier/prettier
+  32:5   warning  Delete `··`                                                                             prettier/prettier
+  33:1   warning  Replace `····` with `··`                                                                prettier/prettier
+  34:16  warning  Replace `␍⏎··},` with `}`                                                               prettier/prettier
+
+✖ 23 problems (0 errors, 23 warnings)
+  0 errors and 23 warnings potentially fixable with the `--fix` option.
+
+
+You may use special comments to disable some warnings.
+Use // eslint-disable-next-line to ignore the next line.
+Use /* eslint-disable */ to ignore all warnings in a file.
+ warning
+
+asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+This can impact web performance.
+Assets:
+  static/js/chunk-vendors.0496cd4a.js (296 KiB)
+  static/images/home/Map.jpg (473 KiB)
+  static/images/home/Tabs.psd (248 KiB)
+  static/images/product-details/Socials.psd (1.1 MiB)
+  static/images/home/Slider.psd (5.97 MiB)
+
+ warning
+
+entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+Entrypoints:
+  app (480 KiB)
+      static/css/chunk-vendors.0ba3e87d.css
+      static/js/chunk-vendors.0496cd4a.js
+      static/css/app.e51ee219.css
+      static/js/app.6b8b85ae.js
+
+
+  File                                      Size             Gzipped
+
+  dist\static\js\chunk-vendors.0496cd4a.    296.39 KiB       97.05 KiB
+  js
+  dist\static\js\app.6b8b85ae.js            10.40 KiB        3.61 KiB
+  dist\static\js\about.c632d4a3.js          0.52 KiB         0.38 KiB
+  dist\static\css\chunk-vendors.0ba3e87d    141.78 KiB       22.48 KiB
+  .css
+  dist\static\css\app.e51ee219.css          31.83 KiB        6.84 KiB
+  dist\static\css\font-awesome.min.css      17.39 KiB        3.92 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+
+
+(venv) C:\Users\Yakub\shopcenter\shopping>python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 25, 2020 - 19:39:46
+Django version 3.0.7, using settings 'shopping.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
+[25/Jun/2020 19:39:57] "GET / HTTP/1.1" 200 955
+[25/Jun/2020 19:39:57] "GET /static/css/app.e51ee219.css HTTP/1.1" 200 32598
+[25/Jun/2020 19:39:57] "GET /static/js/app.6b8b85ae.js HTTP/1.1" 200 10647
+[25/Jun/2020 19:39:57] "GET /static/js/about.c632d4a3.js HTTP/1.1" 200 534
+[25/Jun/2020 19:39:58] "GET /static/fonts/BYekan.4b526009.woff HTTP/1.1" 200 26552
+[25/Jun/2020 19:39:58] "GET /static/images/home/map.png HTTP/1.1" 200 14823
+[25/Jun/2020 19:39:58] "GET /api/products/ HTTP/1.1" 200 687
+[25/Jun/2020 19:39:58] "GET /media/images/Gallery.jpg HTTP/1.1" 200 4289
+[25/Jun/2020 19:39:58] "GET /media/images/partner1.png HTTP/1.1" 200 3003
+[25/Jun/2020 19:39:58] "GET /media/images/shipping.jpg HTTP/1.1" 304 0
+[25/Jun/2020 19:39:58] "GET /media/images/girl2.jpg HTTP/1.1" 200 144294
+[25/Jun/2020 19:43:15] "GET /admin/shop/product/ HTTP/1.1" 200 5053
+[25/Jun/2020 19:43:47] "GET /media/images/girl2.jpg HTTP/1.1" 304 0
+[25/Jun/2020 19:43:49] "GET /api/products/ HTTP/1.1" 200 7251
+[25/Jun/2020 19:43:51] "GET /media/images/shipping.jpg HTTP/1.1" 304 0
+[25/Jun/2020 19:44:47] "GET /api/products/?format=json HTTP/1.1" 200 687
+[25/Jun/2020 19:45:01] "OPTIONS /api/products/ HTTP/1.1" 200 5864
